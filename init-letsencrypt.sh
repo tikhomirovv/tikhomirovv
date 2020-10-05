@@ -9,7 +9,7 @@ source .env
 
 if [[ $DOMAIN == '' ]]
 then
-  echo "Environment variable DOMAIN is not found"
+  echo "Environment variable DOMAIN can not be empty"
   exit;
 fi
 

@@ -2,6 +2,6 @@
 Homepage
 
 ```
-# start `init.sh` file instead docker-compose up
-./init.sh
+# run `init-letsencrypt.sh` file to get SSL certificate
+./init-letsencrypt.sh
 ```

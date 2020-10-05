@@ -12,7 +12,6 @@ services:
       - "443:443"
     environment:
       - DOMAIN=$DOMAIN
-    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
   # Let's encrypt
   certbot:
     image: certbot/certbot

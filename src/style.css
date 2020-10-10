@@ -1,0 +1,89 @@
+.container {
+    max-width: var(--page-width);
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: #222225;
+    color: var(--font-color);
+    font-family: var(--mono-font-stack);
+    padding: 10px;
+    font-size: var(--global-font-size);
+}
+
+img {
+    width: 100%;
+}
+
+figure {
+    margin: 3em 0;
+}
+
+figure > figcaption {
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+a {
+    cursor: pointer;
+    color: var(--primary-color);
+    text-decoration: none;
+    position: relative;
+}
+
+a:hover {
+    background-color: var(--primary-color);
+    color: var(--invert-font-color);
+}
+
+code {
+    font-weight: bold;
+    background-color: var(--code-bg-color);
+    font-family: var(--font-stack);
+    color: var(--font-color);
+}
+
+li {
+    position: relative;
+    display: block;
+    padding-left: calc(var(--global-space) * 2);
+}
+
+ul {
+    padding-left: 16px;
+}
+
+ul > li::after {
+    content: "-";
+}
+
+li::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+:root {
+    --global-font-size: 15px;
+    --global-line-height: 1.4em;
+    --global-space: 10px;
+    --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+    serif;
+    --mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
+    serif;
+    --background-color: #222225;
+    --page-width: 40em;
+    --font-color: #e8e9ed;
+    --invert-font-color: #222225;
+    --secondary-color: #a3abba;
+    --tertiary-color: #a3abba;
+    --primary-color: #62c4ff;
+    --error-color: #ff3c74;
+    --progress-bar-background: #3f3f44;
+    --progress-bar-fill: #62c4ff;
+    --code-bg-color: #3f3f44;
+    --input-style: solid;
+    --display-h1-decoration: none;
+}

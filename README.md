@@ -5,7 +5,7 @@
 - 📫 v.tikhomirov.dev@gmail.com
 
 
-Outside of programming, I enjoy composing music in Ableton, singing and playing the guitar, reading books, petting two black cats.
+Outside of programming, I enjoy composing music in Ableton, singing and playing the guitar, reading books and petting two black cats.
 
 <!---
 tikhomirovv/tikhomirovv is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

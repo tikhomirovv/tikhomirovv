@@ -1,28 +1,16 @@
 {
   "name": "tikhomirov.me",
   "version": "1.0.0",
-  "description": "Tikhomirov Valerii homepage",
-  "main": "index.html",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "npx webpack --mode development --watch",
-    "build": "npx webpack --mode production"
+    "dev": "parcel -p 8080 --open",
+    "build": "parcel build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tikhomirovv/tikhomirov.me.git"
-  },
-  "author": "Tikhomirov Valerii <v.tikhomirov.dev@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tikhomirovv/tikhomirov.me/issues"
-  },
-  "homepage": "https://github.com/tikhomirovv/tikhomirov.me#readme",
   "devDependencies": {
-    "clean-webpack-plugin": "^4.0.0",
-    "css-loader": "^6.7.3",
-    "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
-  }
+    "parcel": "^2.8.2"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "repository": "git@github.com:tikhomirovv/tikhomirov.me.git",
+  "author": "Valerii Tikhomirov <v.tikhomirov.dev@gmail.com>",
+  "license": "MIT"
 }

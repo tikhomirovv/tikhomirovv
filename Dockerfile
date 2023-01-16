@@ -1,4 +1,7 @@
-FROM node:16.1-alpine3.13 AS build
+FROM node:18.13.0-alpine3.17 AS build
+WORKDIR /build
+
+RUN apk add --no-cache python3 make g++
 
 # copy project files and folders to the current working directory (i.e. 'app' folder)
 COPY . .
@@ -10,12 +13,12 @@ RUN npm i
 RUN npm run build
 
 # Run-time stage
-FROM node:16.1-alpine3.13
+FROM node:18.13.0-alpine3.17
 
 # make the 'app' folder the current working directory
 WORKDIR /app
 
-COPY --from=build dist ./dist
+COPY --from=build /build/dist ./dist
 
 # install simple http server for serving static content
 RUN npm install -g http-server

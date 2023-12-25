@@ -2,7 +2,7 @@
 
 - 👨‍💻 Core Stack: PHP, Go, JavaScript (Vue, Express)
 - 🏗️ Developing my own project [MindLog](https://mindlog.app)
-- 📫 v.tikhomirov.dev@gmail.com
+- 📫 v.tikhomirov.dev+github@gmail.com
 
 
 Outside of programming, I enjoy composing music in Ableton, singing and playing the guitar, reading books and petting two black cats.

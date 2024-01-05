@@ -1,6 +1,6 @@
 # 👋 Valerii Tikhomirov (@tikhomirovv)
 
-- 👨‍💻 Core Stack: PHP, Go, JavaScript (Vue, Express)
+- 👨‍💻 Core Stack: JavaScript/TypeScript (Vue, NodeJS), Go, PHP
 - 🏗️ Developing my own project [MindLog](https://mindlog.app)
 - 📫 v.tikhomirov.dev+github@gmail.com
 

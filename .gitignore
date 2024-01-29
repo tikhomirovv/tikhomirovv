@@ -1,8 +1,0 @@
-.idea
-.vscode
-.parcel-cache
-.env
-dist
-node_modules
-
-TODO.md

@@ -9,20 +9,20 @@ Outside of programming, I enjoy composing music in Ableton, singing and playing 
 
 ## Skills
 
-### Programming languages
+<!-- ### Programming languages -->
 ![Languages](https://skillicons.dev/icons?i=js,typescript,go,php)
 
-### Frontend
+<!-- ### Frontend -->
 
-![Frontend Technologies](https://skillicons.dev/icons?i=html,css,vite,vue,nuxtjs,astro,tailwind)
+![Frontend Technologies](https://skillicons.dev/icons?i=html,css,vite,vue,nuxtjs,astro,tailwind,bootstrap,jquery)
 
-### Backend
+<!-- ### Backend -->
 
 ![Backend Technologies](https://skillicons.dev/icons?i=linux,bash,docker,nodejs,express,graphql,rabbitmq,sequelize)
 
 ![Databases](https://skillicons.dev/icons?i=mysql,postgres,mongo,redis)
 
-### Other tools and technologies
+<!-- ### Other tools and technologies -->
 
 ![Other](https://skillicons.dev/icons?i=git,github,gitlab,vscode,ableton,figma,md)
 
